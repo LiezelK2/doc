@@ -9,9 +9,6 @@ Select the ShareDo.Tmeplates.Form.SaveAsForm form, select the Save As function t
 
 Please take note that you should not clone the views, this rule must always be set to No.
 
-## How to update the form
-
-
 ## Smartform Rules
 
 ### ShareDo.Templates.Form.SaveAsForm Overview
