@@ -39,8 +39,12 @@ The view contains four rules:
 
 #### 1. When the server loads the View
 
+It is important to remember that this rule should not be changed
+
 #### 2. When txtFrameMessage is Changed
 
 #### 3. [override] @shareDo_Save
+
+With this rule, you can place your save mechanism in here to override the rule
 
 #### 4. @shareDo_SendClose
