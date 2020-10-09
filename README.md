@@ -36,7 +36,7 @@ The view contains four rules:
 <img src="https://github.com/LiezelK2/doc/blob/main/images/viewRulesOverview.PNG" width="500">
 
 #### 1. When the server loads the View
-<img src="https://github.com/LiezelK2/doc/blob/main/images/loadview.PNG" width="500">
+<img src="https://github.com/LiezelK2/doc/blob/main/images/loadview.PNG" width="900">
 
 It is important to remember that this rule should not be changed
 
@@ -46,9 +46,9 @@ It is important to remember that this rule should not be changed
 This rule allows for the advanced conditions, and calls the @shareDo or @shareDo_SendClose depending on the condition set
 
 #### 3. [override] @shareDo_Save
-<img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSave.PNG" width="500">
+<img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSave.PNG" width="900">
 
 With this rule, you can place your save mechanism in here to override the rule
 
 #### 4. @shareDo_SendClose
-<img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSendClose.PNG" width="500">
+<img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSendClose.PNG" width="900">
