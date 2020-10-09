@@ -43,6 +43,8 @@ It is important to remember that this rule should not be changed
 #### 2. When txtFrameMessage is Changed
 <img src="https://github.com/LiezelK2/doc/blob/main/images/textFrame.PNG" width="500">
 
+This rule allows for the advanced conditions, and calls the @shareDo or @shareDo_SendClose depending on the condition set
+
 #### 3. [override] @shareDo_Save
 <img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSave.PNG" width="500">
 
