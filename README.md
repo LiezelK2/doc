@@ -44,7 +44,7 @@ The view contains four rules:
 It is important to remember that this rule should not be changed
 
 #### 2. When txtFrameMessage is Changed
-<img src="https://github.com/LiezelK2/doc/blob/main/images/txtFrame.PNG" width="500">
+<img src="https://github.com/LiezelK2/doc/blob/main/images/textFrame.PNG" width="500">
 
 #### 3. [override] @shareDo_Save
 <img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSave.PNG" width="500">
