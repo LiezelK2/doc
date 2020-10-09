@@ -5,19 +5,27 @@ For ease of use we've created a Sharedo package that includes the theming as wel
 
 ## How to use the form
 After you've installed the Kspx package, go to the Sharedo folder, and open Templates.
-Select the ShareDo.Tmeplates.Form.SaveAsForm form, select the Save As function to copy the form.
+Select the ShareDo.Templates.Form.SaveAsForm form, select the Save As function to copy the form.
 
 <img src="https://github.com/LiezelK2/doc/blob/main/images/saveAs.PNG" width="500">
 
 Please take note that you should not clone the views, this rule must always be set to No.
 
 
-
-
-
-
 ## How to add custom theming to your form:
+
+If you like to add additional custom theming to the template, the first things you need to do is just ensure your environment is correct:
+1. Ensure Node JS is installed and VS Code
+2. Open the folder with VS Code
+3. Open the command line in VS Code and run `npm start`
+4. Follow the Apply process above as required.
+      - i.e. If you just want to update the theme on a K2 SF Environment, just edit the theme View, save and check-in.
+      - Follow entire Apply process when no theme view exists.
+      
+Now you can go ahead and edit the theming if you wish,     
+
 1. Open **./release/Merged.html**
+   _here you can edit the styling_
 2. Copy the contents of the file
 3. Create View on SF Designer (For Ref purposes call it **ShareDo Theme**)
 4. Add a DataLabel
@@ -36,13 +44,7 @@ Please take note that you should not clone the views, this rule must always be s
   
 Use or test the Form, adding controls and views as required.
 
-### To Regenerate or update theme:
-1. Ensure Node JS is installed and VS Code
-2. Open the folder with VS Code
-3. Open the command line in VS Code and run `npm start`
-4. Follow the Apply process above as required.
-      - i.e. If you just want to update the theme on a K2 SF Environment, just edit the theme View, save and check-in.
-      - Follow entire Apply process when no theme view exists.
+
 
 ## Additional Styling
 ### Labels
