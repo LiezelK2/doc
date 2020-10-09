@@ -4,6 +4,7 @@ The purpose of the Package and Deployment file is to provide a template for ease
 ## How to use the form
 After you've installed the Kspx package, go to the Sharedo folder, and open Templates.
 Select the ShareDo.Tmeplates.Form.SaveAsForm form, select the Save As function to copy the form.
+
 <img src="https://github.com/LiezelK2/doc/blob/main/images/saveAs.PNG" width="500">
 
 Please take note that you should not clone the views, this rule must always be set to No.
