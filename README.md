@@ -1,7 +1,7 @@
 # K2 ShareDo Theme
 
-## Documentation for the P&D file
-The purpose of the Package and Deployment file is to provide a template for ease of use when creating K2 smartforms for Sharedo.
+The purpose of this document is to assist with adding the Sharedo theming into K2 smartforms.
+For ease of use we've created a Sharedo package that includes the theming as well as the handling of Sharedo commands within the smarform.
 
 ## How to use the form
 After you've installed the Kspx package, go to the Sharedo folder, and open Templates.
