@@ -12,6 +12,53 @@ Select the ShareDo.Templates.Form.SaveAsForm form, select the Save As function t
 Please take note that you should not clone the views, this rule must always be set to No.
 
 
+
+
+
+### Smartform Rules
+
+#### ShareDo.Templates.Form.SaveAsForm Overview
+
+The form has two rules: 
+1. When the Form is Initializing
+2. When the server loads the Form
+
+<img src="https://github.com/LiezelK2/doc/blob/main/images/rulesOne.PNG" width="500">
+
+#### _1. When the Form is Initializing_
+<img src="https://github.com/LiezelK2/doc/blob/main/images/formInit.PNG" width="900">
+When the form is initialized, it executes the initialize method for the Sharedo.Templates.ItemView.MainView view
+
+#### _2. When the server loads the Form_
+<img src="https://github.com/LiezelK2/doc/blob/main/images/serverloadsForm.PNG" width="900">
+This rule executes the server rule of the Sharedo.Templates.ItemView.MainView view which imports the CSSText control, providing the sharedo styling for the smartform and the scripting for the post message that is received from Sharedo
+
+### ShareDo.Templates.ItemView.MainView
+The view contains four rules:
+1. When the server loads the View
+2. When txtFrameMessage is Changed
+3. [override] @shareDo_Save
+4. @shareDo_SendClose
+<img src="https://github.com/LiezelK2/doc/blob/main/images/viewRulesOverview.PNG" width="500">
+
+#### _1. When the server loads the View_
+<img src="https://github.com/LiezelK2/doc/blob/main/images/loadview.PNG" width="900">
+
+It is important to remember that this rule should not be changed
+
+#### _2. When txtFrameMessage is Changed_
+<img src="https://github.com/LiezelK2/doc/blob/main/images/textFrame.PNG" width="500">
+
+This rule allows for the advanced conditions, and calls the @shareDo or @shareDo_SendClose depending on the condition set
+
+#### _3. [override] @shareDo_Save_
+<img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSave.PNG" width="900">
+
+With this rule, you can place your save mechanism in here to override the rule
+
+#### _4. @shareDo_SendClose_
+<img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSendClose.PNG" width="900">
+
 ## How to add custom theming to your form:
 
 If you would like to add additional custom theming to the template, the first things you need to do is just ensure your environment is correct:
@@ -53,51 +100,4 @@ Use or test the Form, adding controls and views as required.
 ### Labels
   - Append `ShareDoRegular` to each label you want displayed normally instead of the normal ShareDo Bold label.  
     `My label ShareDoRegular` or `My labelShareDoRegular` or  `label_ShareDoRegular` will all work.
-
-
-
-## Smartform Rules
-
-### ShareDo.Templates.Form.SaveAsForm Overview
-
-The form has two rules: 
-1. When the Form is Initializing
-2. When the server loads the Form
-
-<img src="https://github.com/LiezelK2/doc/blob/main/images/rulesOne.PNG" width="500">
-
-#### 1. When the Form is Initializing
-<img src="https://github.com/LiezelK2/doc/blob/main/images/formInit.PNG" width="900">
-When the form is initialized, it executes the initialize method for the Sharedo.Templates.ItemView.MainView view
-
-#### 2. When the server loads the Form
-<img src="https://github.com/LiezelK2/doc/blob/main/images/serverloadsForm.PNG" width="900">
-This rule executes the server rule of the Sharedo.Templates.ItemView.MainView view which imports the CSSText control, providing the sharedo styling for the smartform and the scripting for the post message that is received from Sharedo
-
-### ShareDo.Templates.ItemView.MainView
-The view contains four rules:
-1. When the server loads the View
-2. When txtFrameMessage is Changed
-3. [override] @shareDo_Save
-4. @shareDo_SendClose
-<img src="https://github.com/LiezelK2/doc/blob/main/images/viewRulesOverview.PNG" width="500">
-
-#### 1. When the server loads the View
-<img src="https://github.com/LiezelK2/doc/blob/main/images/loadview.PNG" width="900">
-
-It is important to remember that this rule should not be changed
-
-#### 2. When txtFrameMessage is Changed
-<img src="https://github.com/LiezelK2/doc/blob/main/images/textFrame.PNG" width="500">
-
-This rule allows for the advanced conditions, and calls the @shareDo or @shareDo_SendClose depending on the condition set
-
-#### 3. [override] @shareDo_Save
-<img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSave.PNG" width="900">
-
-With this rule, you can place your save mechanism in here to override the rule
-
-#### 4. @shareDo_SendClose
-<img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSendClose.PNG" width="900">
-
 
