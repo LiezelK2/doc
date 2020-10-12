@@ -14,7 +14,9 @@ Please take note that you should not clone the views, this rule must always be s
 
 ## How to add custom theming to your form:
 
-If you like to add additional custom theming to the template, the first things you need to do is just ensure your environment is correct:
+If you would like to add additional custom theming to the template, the first things you need to do is just ensure your environment is correct:
+You would also need the Sharedo Theme file to adjust any theming.
+
 1. Ensure Node JS is installed and VS Code
 2. Open the folder with VS Code
 3. Open the command line in VS Code and run `npm start`
@@ -96,3 +98,5 @@ With this rule, you can place your save mechanism in here to override the rule
 
 #### 4. @shareDo_SendClose
 <img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSendClose.PNG" width="900">
+
+
