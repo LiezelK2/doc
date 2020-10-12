@@ -19,7 +19,7 @@ Select the _Deploy Package_ button.
 ![select](./images/selectpackage.PNG)
 Browse to where you downloaded your file and select _Next_.
 
-![pnditems](./images/pnd items.PNG)
+![pnditems](./images/pnditems.PNG)
 Select the _All Items_ checkbox, then select the _Analzyse_ button followed again by the _Next_ button.
 
 ![finish](./images/pndfinish.PNG)
