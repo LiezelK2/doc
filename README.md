@@ -3,10 +3,7 @@
 The purpose of this document is to assist with adding the Sharedo theming into K2 smartforms.
 For ease of use we've created a Sharedo package that includes the theming as well as the handling of Sharedo Blade Save and Close commands within the smarform.
 
-## How to use the form
-
 This form functions as a template and you should not to directly work with this form but to rather copy it into your own folder.
-
 
 ### Install the KSPX file
 
@@ -17,12 +14,15 @@ After you've downloaded the Sharedo Theme KSPX file, you need to use the Package
 Select the _Deploy Package_ button. 
 
 ![select](./images/selectpackage.PNG)
+
 Browse to where you downloaded your file and select _Next_.
 
 ![pnditems](./images/pnditems.PNG)
+
 Select the _All Items_ checkbox, then select the _Analzyse_ button followed again by the _Next_ button.
 
 ![finish](./images/pndfinish.PNG)
+
 You will then see the result of your install. Select _Finish_.
  
 ### Copy the Form
@@ -84,7 +84,7 @@ With this rule, you can place your save mechanism in here to override the rule
 
 ![sharedosendclose](./images/sharedoSendClose.PNG)
 
-This rule closes the blade within Sharedo and it is a command you call yourself
+This rule closes the blade within Sharedo and it is also a command(Smartforms rule) that you can call yourself.
 
 ## How to add custom theming to your form:
 
