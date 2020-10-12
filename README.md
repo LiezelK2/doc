@@ -33,6 +33,7 @@ Now you can go ahead and edit the theming if you wish,
 4. Add a DataLabel
 5. :heavy_plus_sign: Add a server event rule `When the server loads the View`
 6. Set the Control Properties of DataLabel using `Set a control's properties` and pressing `(configure)` :gear: 
+   _if you are using the kspx file for your theming, copy it into the cssText property_
 7. Paste the copied contents (copied from point 5) into the text value in the rule
 8. **Check** the `Literal` property so that it applies **yes** (or true)
 9. Save and check in the View.
