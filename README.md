@@ -8,7 +8,7 @@ For ease of use we've created a Sharedo package that includes the theming as wel
 This form functions as a template and it's best not to directly work with this form but to rather copy it into your own folder.
 After you've installed the Kspx package, go to the Sharedo folder, and open Templates. Select the ShareDo.Templates.Form.SaveAsForm form, select the Save As function to copy the form.
 
-![Save As](./images/saveAs.PNG width="500")
+![Save As](./images/saveAs.PNG)
 
 Select your category(folder) you would like to work from for your form
 If your forms are checked out, you can select to Check them in here but please take note that you should not clone the views, this rule must always be set to No.
