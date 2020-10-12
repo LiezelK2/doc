@@ -4,22 +4,22 @@ The purpose of this document is to assist with adding the Sharedo theming into K
 For ease of use we've created a Sharedo package that includes the theming as well as the handling of Sharedo commands within the smarform.
 
 ## How to use the form
-After you've installed the Kspx package, go to the Sharedo folder, and open Templates.
-Select the ShareDo.Templates.Form.SaveAsForm form, select the Save As function to copy the form.
+
+This form functions as a template and it's best not to directly work with this form but to rather copy it into your own folder.
+After you've installed the Kspx package, go to the Sharedo folder, and open Templates. Select the ShareDo.Templates.Form.SaveAsForm form, select the Save As function to copy the form.
 
 <img src="https://github.com/LiezelK2/doc/blob/main/images/saveAs.PNG" width="500">
 
-Please take note that you should not clone the views, this rule must always be set to No.
-
-
-
-
+Select your category(folder) you would like to work from for your form
+If your forms are checked out, you can select to Check them in here but please take note that you should not clone the views, this rule must always be set to No.
+Click _OK_ and the form will now have been copied to your desired folder.
 
 ### Smartform Rules
+This section is just a brief overview of the rules within the Sharedo Theme file.
 
 #### ShareDo.Templates.Form.SaveAsForm Overview
 
-The form has two rules: 
+The main form has two rules: 
 1. When the Form is Initializing
 2. When the server loads the Form
 
@@ -58,6 +58,7 @@ With this rule, you can place your save mechanism in here to override the rule
 
 #### _4. @shareDo_SendClose_
 <img src="https://github.com/LiezelK2/doc/blob/main/images/sharedoSendClose.PNG" width="900">
+This rule closes any open blade in Sharedo
 
 ## How to add custom theming to your form:
 
