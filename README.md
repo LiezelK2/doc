@@ -14,10 +14,16 @@ After you've downloaded the Sharedo Theme KSPX file, you need to use the Package
 
 ![PND](./images/pnd.PNG)
 
-Select the _Deploy Package_ button. Browse to where you downloaded your file and select _Next_.
+Select the _Deploy Package_ button. 
+
+![select](./images/selectpackage.PNG)
+Browse to where you downloaded your file and select _Next_.
 
 ![pnditems](./images/pnd items.PNG)
-Select the _All Items_ checkbox, then select  the  _Analzyse_ button followed again by the _Next_ button.
+Select the _All Items_ checkbox, then select the _Analzyse_ button followed again by the _Next_ button.
+
+![finish](./images/pndfinish.PNG)
+You will then see the result of your install. Select _Finish_.
  
 ### Copy the Form
 After you've installed the Kspx package, go to the Sharedo folder, and open Templates. Select the ShareDo.Templates.Form.SaveAsForm form, select the Save As function to copy the form.
